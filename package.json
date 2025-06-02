@@ -1,0 +1,42 @@
+{
+  "name": "HASAAN-MD",
+  "version": "1.0.0",
+  "description": "WELCOME TO HASAAN-MD",
+  "main": "start.js",
+ "scripts": {
+  "start": "pm2 start start.js --name 'HASAAN-MD' --deep-monitoring --attach",
+  "stop": "pm2 stop HASAAN-MD",
+  "restart": "pm2 restart HASAAN-MD"
+} ,
+  "dependencies": {
+    "@whiskeysockets/baileys": "latest",
+    "@adiwajshing/keyed-db": "latest",
+    "pino": "latest",
+    "pm2": "latest",
+    "util": "latest",
+    "express": "latest",
+    "axios": "1.8.4",
+    "file_size_url": "latest",
+    "fs-extra": "latest",
+    "form-data": "4.0.2",
+    "fs": "0.0.1-security",
+    "file-type": "20.4.1",
+    "crypto": "1.0.1",
+    "path": "latest",
+    "node-fetch": "latest",
+    "https": "1.0.0",
+    "megajs": "latest",
+    "vm": "latest",
+    "qrcode-terminal": "latest",
+    "yt-search":"2.12.1",
+    "api-dylux":"1.8.5",
+    "fb-downloader-scrapper": "3.0.1",
+    "@vreden/youtube_scraper": "1.2.7",
+    "denethdev-ytmp3": "1.0.3",
+    "cheerio": "1.0.0",
+    "undici": "7.8.0",
+    "extract-zip": "2.0.1",
+    "moment-timezone": "0.5.48",
+    "mongoose":"8.12.1"
+  }
+}
